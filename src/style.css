@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Karla", sans-serif;
+}
+.form--input {
+  @apply border rounded-md border-[#d5d4d8] indent-1 p-2;
+}
